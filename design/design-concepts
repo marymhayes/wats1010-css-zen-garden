@@ -1,0 +1,14 @@
+Design Concepts
+
+Knowing that NASA's images are public domain, I thought that it would be fun to utilize them for my CSS Zen Garden Redesign.
+My concept is to create a visually striking and dynamic site with black and dark backgrounds and images of the moon, stars,
+and space. Using a dark background it will be even more important to have a simple, clean design so that users will be able to
+read and navigate easily. NASA's website (http://www.nasa.gov/) is a great example of doing this effectively. I would like to 
+have one fixed image or looping video that text will pass over as the user scrolls through the site. I created a modular design 
+across two columns, with the h2 and summary offset to draw in the user's eye.
+
+I want the user to be drawn in and held by the imagery, but be able to easily consume the information provided. My favorite
+Zen Garden Redesign was http://www.csszengarden.com/218/, but it felt like it very much relied on specific illustrations, so I
+used my second favorite http://www.csszengarden.com/215/ as my inspiration. I feel like if I can learn to emulate its clean 
+consistency I will be developing skills that will be very applicable to other projects. I decided to put the design selection,
+archives, and resources higher on the page, to give them more importance.
