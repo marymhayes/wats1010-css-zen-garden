@@ -7,30 +7,24 @@
 
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
-
 /* basic elements */
 html {
 	margin: 0;
 	padding: 0;
 	}
 body { 
-	font: 75% georgia, sans-serif;
+	font: 110% georgia, sans-serif;
 	line-height: 1.88889;
-	color: #555753; 
-	background: #fff url(blossoms.jpg) no-repeat bottom right; 
+	background:url(lunareclipse2.jpg) center fixed no-repeat; background-attachment:fixed; 
+	color: #CDCDB4; 
 	margin: 0; 
 	padding: 0;
+	background-color: black;
 	}
 p { 
 	margin-top: 0; 
 	text-align: justify;
-	}
-h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
-	letter-spacing: 1px; 
-	margin-bottom: 0; 
-	color: #7D775C;
-	}
+}
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
@@ -48,147 +42,133 @@ a:hover, a:focus, a:active {
 abbr {
 	border-bottom: none;
 	}
-
-
 /* specific divs */
-.page-wrapper { 
-	background: url(zen-bg.jpg) no-repeat top left; 
+.page-wrapper {  
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
 	}
-
-.intro { 
-	min-width: 470px;
-	width: 100%;
-	}
-
-header h1 { 
-	background: transparent url(h1.gif) no-repeat top left;
-	margin-top: 10px;
-	display: block;
-	width: 219px;
-	height: 87px;
-	float: left;
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-header h2 { 
-	background: transparent url(h2.gif) no-repeat top left; 
-	margin-top: 58px; 
-	margin-bottom: 40px; 
-	width: 200px; 
-	height: 18px; 
+h1 {
+	text-align: center;
+	font-size:400%;
+	color: white;
+	margin-bottom: 0;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+h2 {
+	margin-top: 0;
+	padding-left: 10%;
+	position: relative;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+.summary {
 	float: right;
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-header {
-	padding-top: 20px;
-	height: 87px;
+	padding-left: 60%;
+	min-width: 200px;
+	position: relative;
 }
 
-.summary {
-	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
-	float: left;
-	}
-.summary p {
-	font: italic 1.1em/2.2 georgia; 
-	text-align: center;
-	}
-
 .preamble {
-	clear: right; 
-	padding: 0px 10px 0 10px;
-	}
-.supporting {	
-	padding-left: 10px; 
-	margin-bottom: 40px;
-	}
+	float: left;
+	width: 45%;
+	position: relative;
+	padding: 10px 10px 10px 10px;
+  	background: none;
+  	border-radius: 6px;
+  	transition-property: background, border-radius;
+  	transition-duration: .2s, 1s;
+  	transition-timing-function: linear, ease-in;
+}
+.preamble:hover {
+    background: #38382E;
 
-footer { 
-	text-align: center; 
-	}
-footer a:link, footer a:visited { 
-	margin-right: 20px; 
-	}
-
-.sidebar {
-	margin-left: 600px; 
-	position: absolute; 
-	top: 0; 
-	right: 0;
-	}
-.sidebar .wrapper { 
-	font: 10px verdana, sans-serif; 
-	background: transparent url(paper-bg.jpg) top left repeat-y; 
-	padding: 10px; 
-	margin-top: 150px; 
-	width: 130px; 
-	}
-.sidebar h3.select { 
-	background: transparent url(h3.gif) no-repeat top left; 
-	margin: 10px 0 5px 0; 
-	width: 97px; 
-	height: 16px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-.sidebar h3.archives { 
-	background: transparent url(h5.gif) no-repeat top left; 
-	margin: 25px 0 5px 0; 
-	width:57px; 
-	height: 14px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-.sidebar h3.resources { 
-	background: transparent url(h6.gif) no-repeat top left; 
-	margin: 25px 0 5px 0; 
-	width:63px; 
-	height: 10px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-
-
-.sidebar ul {
-	margin: 0;
-	padding: 0;
-	}
-.sidebar li {
-	line-height: 1.3em; 
-	background: transparent url(cr1.gif) no-repeat top center; 
-	display: block; 
-	padding-top: 5px; 
-	margin-bottom: 5px;
-	list-style-type: none;
-	}
-.sidebar li a:link {
-	color: #988F5E;
-	}
-.sidebar li a:visited {
-	color: #B3AE94;
-	}
-
-
-.extra1 {
-	background: transparent url(cr2.gif) top left no-repeat; 
-	position: absolute; 
-	top: 40px; 
-	right: 0; 
-	width: 148px; 
-	height: 110px;
-	}
+}
+.explanation {
+	float: right;
+	width: 45%;
+	position: relative;
+	padding: 10px 10px 10px 10px;
+  	background: none;
+  	border-radius: 6px;
+  	transition-property: background, border-radius;
+  	transition-duration: .2s, 1s;
+  	transition-timing-function: linear, ease-in;
+}
+.explanation:hover {
+    background: #38382E;
+}
+.participation {
+	float: left;
+	width: 45%;
+	margin-top: 50px;
+	padding: 10px 10px 10px 10px;
+  	background: none;
+  	border-radius: 6px;
+  	transition-property: background, border-radius;
+  	transition-duration: .2s, 1s;
+  	transition-timing-function: linear, ease-in;
+}
+.participation:hover {
+    background: #38382E;
+}
+.benefits {
+	clear: left;
+	float: left;
+	width: 45%;
+	position: relative;
+	margin-top: 50px;
+	padding: 10px 10px 10px 10px;
+  	background: none;
+  	border-radius: 6px;
+  	transition-property: background, border-radius;
+  	transition-duration: .2s, 1s;
+  	transition-timing-function: linear, ease-in;
+}
+.benefits:hover {
+    background: #38382E;
+}
+.requirements {
+	position: relative;
+	float: right;
+	width: 45%;
+	top: -675px;
+	padding: 10px 10px 10px 10px;
+  	background: none;
+  	border-radius: 6px;
+  	transition-property: background, border-radius;
+  	transition-duration: .2s, 1s;
+  	transition-timing-function: linear, ease-in;
+}
+.requirements:hover {
+    background: #38382E;
+}
+footer {
+	position: relative;
+	clear: right;
+	text-align: justify;
+	width: 100%;
+	font-size: 200%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	top: -600px;
+}
+footer:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+.design-selection {
+	margin: auto;
+    width: 100%;
+    padding: 10px;
+	position: relative;
+}
+.design-archives {
+	float: left;
+	width: 45%;
+	position: relative;
+}
+.zen-resources {
+	float: right;
+	width: 45%;
+	position: relative;
+}
