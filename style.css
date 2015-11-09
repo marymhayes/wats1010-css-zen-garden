@@ -15,8 +15,8 @@ html {
 body { 
 	font: 110% georgia, sans-serif;
 	line-height: 1.88889;
-	background:url(lunareclipse2.jpg) center fixed no-repeat; background-attachment:fixed; 
-	color: #CDCDB4; 
+	background: url(moon2.jpg) center top no-repeat;
+	color: white; 
 	margin: 0; 
 	padding: 0;
 	background-color: black;
@@ -42,6 +42,9 @@ a:hover, a:focus, a:active {
 abbr {
 	border-bottom: none;
 	}
+div li {
+	  list-style-type:none; 
+ 	} 
 /* specific divs */
 .page-wrapper {  
 	padding: 0 175px 0 110px;  
@@ -61,6 +64,9 @@ h2 {
 	position: relative;
 	font-family: "Arial Black", Gadget, sans-serif;
 }
+h3 {
+	text-transform: uppercase; 
+}
 .summary {
 	float: right;
 	padding-left: 60%;
@@ -72,8 +78,8 @@ h2 {
 	float: left;
 	width: 45%;
 	position: relative;
-	padding: 10px 10px 10px 10px;
-  	background: none;
+	padding: 10px 10px 10px 10px; 
+	min-width: 200px;
   	border-radius: 6px;
   	transition-property: background, border-radius;
   	transition-duration: .2s, 1s;
@@ -88,6 +94,7 @@ h2 {
 	width: 45%;
 	position: relative;
 	padding: 10px 10px 10px 10px;
+	min-width: 200px;
   	background: none;
   	border-radius: 6px;
   	transition-property: background, border-radius;
@@ -102,6 +109,7 @@ h2 {
 	width: 45%;
 	margin-top: 50px;
 	padding: 10px 10px 10px 10px;
+	min-width: 200px;
   	background: none;
   	border-radius: 6px;
   	transition-property: background, border-radius;
@@ -117,6 +125,7 @@ h2 {
 	width: 45%;
 	position: relative;
 	margin-top: 50px;
+	min-width: 200px;
 	padding: 10px 10px 10px 10px;
   	background: none;
   	border-radius: 6px;
@@ -131,8 +140,9 @@ h2 {
 	position: relative;
 	float: right;
 	width: 45%;
-	top: -675px;
+	top: -730px;
 	padding: 10px 10px 10px 10px;
+	min-width: 200px;
   	background: none;
   	border-radius: 6px;
   	transition-property: background, border-radius;
@@ -149,7 +159,7 @@ footer {
 	width: 100%;
 	font-size: 200%;
 	font-family: "Arial Black", Gadget, sans-serif;
-	top: -600px;
+	top: -675px;
 }
 footer:after {
   content: "";
@@ -157,18 +167,22 @@ footer:after {
   width: 100%;
 }
 .design-selection {
+	text-align: center;
 	margin: auto;
     width: 100%;
     padding: 10px;
 	position: relative;
+	top: -675px;
 }
 .design-archives {
 	float: left;
 	width: 45%;
 	position: relative;
+	top: -675px;
 }
 .zen-resources {
 	float: right;
 	width: 45%;
 	position: relative;
+	top: -675px;
 }
